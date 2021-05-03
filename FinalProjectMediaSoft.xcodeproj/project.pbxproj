@@ -3,29 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23C915B576A5131DC60E3422 /* Pods_FinalProjectMediaSoft.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5AEFD2002629178676F22F /* Pods_FinalProjectMediaSoft.framework */; };
 		355C0DEB264039CE00112B63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C0DEA264039CE00112B63 /* AppDelegate.swift */; };
 		355C0DED264039CE00112B63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C0DEC264039CE00112B63 /* SceneDelegate.swift */; };
-		355C0DEF264039CE00112B63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C0DEE264039CE00112B63 /* ViewController.swift */; };
 		355C0DF2264039CE00112B63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355C0DF0264039CE00112B63 /* Main.storyboard */; };
 		355C0DF5264039CE00112B63 /* FinalProjectMediaSoft.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 355C0DF3264039CE00112B63 /* FinalProjectMediaSoft.xcdatamodeld */; };
 		355C0DF7264039D200112B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 355C0DF6264039D200112B63 /* Assets.xcassets */; };
 		355C0DFA264039D200112B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355C0DF8264039D200112B63 /* LaunchScreen.storyboard */; };
+		355C0E0426403A1400112B63 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C0E0326403A1400112B63 /* UIStoryboard.swift */; };
+		355C0E0926403A7800112B63 /* BookCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C0E0826403A7800112B63 /* BookCellViewModel.swift */; };
+		355C0E0C26403AAC00112B63 /* BookSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C0E0B26403AAC00112B63 /* BookSearchViewModel.swift */; };
+		355C0E0F26403AC100112B63 /* BookDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C0E0E26403AC100112B63 /* BookDetailViewModel.swift */; };
+		355C0E1426403B0100112B63 /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C0E1326403B0100112B63 /* BookDetailViewController.swift */; };
+		355C0E1A26403BB600112B63 /* BookSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C0E1926403BB600112B63 /* BookSearchTableViewController.swift */; };
+		355C0E1E26403C0D00112B63 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C0E1D26403C0D00112B63 /* WebService.swift */; };
+		355C0E2126403C2500112B63 /* BookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C0E2026403C2500112B63 /* BookService.swift */; };
+		355C0E2526403C4900112B63 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C0E2426403C4900112B63 /* Book.swift */; };
+		355C0E322640418300112B63 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355C0E312640418300112B63 /* BookTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		355C0DE7264039CE00112B63 /* FinalProjectMediaSoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectMediaSoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		355C0DEA264039CE00112B63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		355C0DEC264039CE00112B63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		355C0DEE264039CE00112B63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		355C0DF1264039CE00112B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		355C0DF4264039CE00112B63 /* FinalProjectMediaSoft.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinalProjectMediaSoft.xcdatamodel; sourceTree = "<group>"; };
 		355C0DF6264039D200112B63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		355C0DF9264039D200112B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		355C0DFB264039D200112B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		355C0E0326403A1400112B63 /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		355C0E0826403A7800112B63 /* BookCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCellViewModel.swift; sourceTree = "<group>"; };
+		355C0E0B26403AAC00112B63 /* BookSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchViewModel.swift; sourceTree = "<group>"; };
+		355C0E0E26403AC100112B63 /* BookDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewModel.swift; sourceTree = "<group>"; };
+		355C0E1326403B0100112B63 /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
+		355C0E1926403BB600112B63 /* BookSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchTableViewController.swift; sourceTree = "<group>"; };
+		355C0E1D26403C0D00112B63 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		355C0E2026403C2500112B63 /* BookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookService.swift; sourceTree = "<group>"; };
+		355C0E2426403C4900112B63 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		355C0E312640418300112B63 /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		4C5AEFD2002629178676F22F /* Pods_FinalProjectMediaSoft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalProjectMediaSoft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7CAA7415430B55FF98C4082 /* Pods-FinalProjectMediaSoft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProjectMediaSoft.debug.xcconfig"; path = "Target Support Files/Pods-FinalProjectMediaSoft/Pods-FinalProjectMediaSoft.debug.xcconfig"; sourceTree = "<group>"; };
+		E3064CFFAD739F40C5252AF1 /* Pods-FinalProjectMediaSoft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProjectMediaSoft.release.xcconfig"; path = "Target Support Files/Pods-FinalProjectMediaSoft/Pods-FinalProjectMediaSoft.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C915B576A5131DC60E3422 /* Pods_FinalProjectMediaSoft.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +67,8 @@
 			children = (
 				355C0DE9264039CE00112B63 /* FinalProjectMediaSoft */,
 				355C0DE8264039CE00112B63 /* Products */,
+				F44E756715214C25F4A24451 /* Pods */,
+				C8D5FFE4EEC4CDD93795F256 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +83,13 @@
 		355C0DE9264039CE00112B63 /* FinalProjectMediaSoft */ = {
 			isa = PBXGroup;
 			children = (
+				355C0E2326403C3800112B63 /* Models */,
+				355C0E1C26403BE900112B63 /* Services */,
+				355C0E1126403AD200112B63 /* ViewControllers */,
+				355C0E0726403A5300112B63 /* ViewModels */,
+				355C0E0626403A1800112B63 /* Extension */,
 				355C0DEA264039CE00112B63 /* AppDelegate.swift */,
 				355C0DEC264039CE00112B63 /* SceneDelegate.swift */,
-				355C0DEE264039CE00112B63 /* ViewController.swift */,
 				355C0DF0264039CE00112B63 /* Main.storyboard */,
 				355C0DF6264039D200112B63 /* Assets.xcassets */,
 				355C0DF8264039D200112B63 /* LaunchScreen.storyboard */,
@@ -70,6 +99,92 @@
 			path = FinalProjectMediaSoft;
 			sourceTree = "<group>";
 		};
+		355C0E0626403A1800112B63 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				355C0E0326403A1400112B63 /* UIStoryboard.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		355C0E0726403A5300112B63 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				355C0E0826403A7800112B63 /* BookCellViewModel.swift */,
+				355C0E0B26403AAC00112B63 /* BookSearchViewModel.swift */,
+				355C0E0E26403AC100112B63 /* BookDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		355C0E1126403AD200112B63 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				355C0E1726403B8B00112B63 /* BookSearchTableViewController */,
+				355C0E1226403AE200112B63 /* BookDetailViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		355C0E1226403AE200112B63 /* BookDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				355C0E1326403B0100112B63 /* BookDetailViewController.swift */,
+			);
+			path = BookDetailViewController;
+			sourceTree = "<group>";
+		};
+		355C0E1726403B8B00112B63 /* BookSearchTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				355C0E1826403BA100112B63 /* BookTableViewCell */,
+			);
+			path = BookSearchTableViewController;
+			sourceTree = "<group>";
+		};
+		355C0E1826403BA100112B63 /* BookTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				355C0E1926403BB600112B63 /* BookSearchTableViewController.swift */,
+				355C0E312640418300112B63 /* BookTableViewCell.swift */,
+			);
+			path = BookTableViewCell;
+			sourceTree = "<group>";
+		};
+		355C0E1C26403BE900112B63 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				355C0E1D26403C0D00112B63 /* WebService.swift */,
+				355C0E2026403C2500112B63 /* BookService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		355C0E2326403C3800112B63 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				355C0E2426403C4900112B63 /* Book.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C8D5FFE4EEC4CDD93795F256 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C5AEFD2002629178676F22F /* Pods_FinalProjectMediaSoft.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F44E756715214C25F4A24451 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7CAA7415430B55FF98C4082 /* Pods-FinalProjectMediaSoft.debug.xcconfig */,
+				E3064CFFAD739F40C5252AF1 /* Pods-FinalProjectMediaSoft.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 355C0DFE264039D200112B63 /* Build configuration list for PBXNativeTarget "FinalProjectMediaSoft" */;
 			buildPhases = (
+				B509B6FB0EBC80BA5DF20A10 /* [CP] Check Pods Manifest.lock */,
 				355C0DE3264039CE00112B63 /* Sources */,
 				355C0DE4264039CE00112B63 /* Frameworks */,
 				355C0DE5264039CE00112B63 /* Resources */,
+				EF98F3D8431EC2C494CDE9C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,15 +252,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B509B6FB0EBC80BA5DF20A10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FinalProjectMediaSoft-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF98F3D8431EC2C494CDE9C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinalProjectMediaSoft/Pods-FinalProjectMediaSoft-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinalProjectMediaSoft/Pods-FinalProjectMediaSoft-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FinalProjectMediaSoft/Pods-FinalProjectMediaSoft-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		355C0DE3264039CE00112B63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				355C0DEF264039CE00112B63 /* ViewController.swift in Sources */,
+				355C0E1E26403C0D00112B63 /* WebService.swift in Sources */,
+				355C0E1A26403BB600112B63 /* BookSearchTableViewController.swift in Sources */,
+				355C0E322640418300112B63 /* BookTableViewCell.swift in Sources */,
+				355C0E0426403A1400112B63 /* UIStoryboard.swift in Sources */,
 				355C0DEB264039CE00112B63 /* AppDelegate.swift in Sources */,
 				355C0DED264039CE00112B63 /* SceneDelegate.swift in Sources */,
 				355C0DF5264039CE00112B63 /* FinalProjectMediaSoft.xcdatamodeld in Sources */,
+				355C0E1426403B0100112B63 /* BookDetailViewController.swift in Sources */,
+				355C0E2126403C2500112B63 /* BookService.swift in Sources */,
+				355C0E0926403A7800112B63 /* BookCellViewModel.swift in Sources */,
+				355C0E0F26403AC100112B63 /* BookDetailViewModel.swift in Sources */,
+				355C0E2526403C4900112B63 /* Book.swift in Sources */,
+				355C0E0C26403AAC00112B63 /* BookSearchViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +455,7 @@
 		};
 		355C0DFF264039D200112B63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7CAA7415430B55FF98C4082 /* Pods-FinalProjectMediaSoft.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -300,12 +469,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AlexanderNazarov.FinalProjectMediaSoft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		355C0E00264039D200112B63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3064CFFAD739F40C5252AF1 /* Pods-FinalProjectMediaSoft.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -319,7 +489,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AlexanderNazarov.FinalProjectMediaSoft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
