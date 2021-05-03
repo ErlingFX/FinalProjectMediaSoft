@@ -28,7 +28,7 @@ class BookSearchTableViewController: UITableViewController {
         navigationItem.largeTitleDisplayMode = .always
         
         if #available(iOS 11.0, *) {
-            navigationItem.hidesSearchBarWhenScrolling = false // Always shows search bar
+            navigationItem.hidesSearchBarWhenScrolling = false 
         }
         
         setupBindings()
